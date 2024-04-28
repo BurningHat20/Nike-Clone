@@ -6,6 +6,7 @@ import { bigShoe1 } from "../assets/images";
 
 import { useState } from "react";
 import ShoeCard from "../components/ShoeCard";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
@@ -44,7 +45,12 @@ const Hero = () => {
       </div>
 
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
-        <img
+        <motion.img
+          key={bigShoeImg} // Add a unique key for motion to track changes
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.8 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
           src={bigShoeImg}
           alt="shoe collection"
           width={610}

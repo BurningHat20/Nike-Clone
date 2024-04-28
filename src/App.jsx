@@ -9,13 +9,24 @@ import {
   Subscribe,
   SuperQuality,
 } from "./sections/index";
+import { motion } from "framer-motion";
 
 const App = () => (
   <main className="relative">
-    <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b">
-      <Hero />
-    </section>
+    {/* landing page starts */}
+    <motion.section
+      // whileInView={{ x: [-60, 0], opacity: [0, 1] }}
+      // transition={{ duration: 1 }}
+      animate={{ x: [-60, 0], opacity: [0, 1] }}
+      transition={{ duration: 1 }}
+    >
+      <Nav />
+      <section className="xl:padding-l wide:padding-r padding-b">
+        <Hero />
+      </section>
+    </motion.section>
+    {/* landing page ends */}
+
     <section className="padding">
       <PopularProducts />
     </section>
