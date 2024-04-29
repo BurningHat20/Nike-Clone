@@ -1,3 +1,4 @@
+import CustomCursor from "./components/CustomCursor";
 import Nav from "./components/Nav";
 import {
   CustomerReviews,
@@ -13,6 +14,7 @@ import { motion } from "framer-motion";
 
 const App = () => (
   <main className="relative">
+    <CustomCursor />
     {/* landing page starts */}
     <motion.section
       // whileInView={{ x: [-60, 0], opacity: [0, 1] }}
