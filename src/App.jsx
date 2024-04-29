@@ -1,5 +1,5 @@
-import CustomCursor from "./components/CustomCursor";
 import Nav from "./components/Nav";
+import CustomCursor from "./components/CustomCursor";
 import {
   CustomerReviews,
   Footer,
