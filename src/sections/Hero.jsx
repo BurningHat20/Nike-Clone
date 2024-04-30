@@ -8,6 +8,8 @@ import { useState } from "react";
 import ShoeCard from "../components/ShoeCard";
 import { motion } from "framer-motion";
 
+// need to add mix-blend mode to the image
+
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
 
