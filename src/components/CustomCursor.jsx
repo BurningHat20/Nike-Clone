@@ -26,7 +26,7 @@ const CustomCursor = () => {
   return (
     <div
       ref={cursorRef}
-      className="custom-cursor fixed pointer-events-none z-50"
+      className="w-4 h-4 rounded-full bg-black fixed pointer-events-none z-50"
     />
   );
 };

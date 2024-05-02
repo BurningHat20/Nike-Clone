@@ -14,7 +14,9 @@ import { motion } from "framer-motion";
 
 const App = () => (
   <main className="relative">
-    <CustomCursor />
+    <cursor className="max-md:hidden">
+      <CustomCursor />
+    </cursor>
     {/* landing page starts */}
     <motion.section
       // whileInView={{ x: [-60, 0], opacity: [0, 1] }}
