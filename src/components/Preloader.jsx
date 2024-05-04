@@ -10,7 +10,6 @@ const Preloader = () => {
       animate={{ opacity: 0 }}
       transition={{ duration: 1 }}
     >
-      {/* Adjusting image size responsively */}
       <img
         src={headerLogo}
         alt="Loading..."
