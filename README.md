@@ -46,36 +46,6 @@ npm run dev
 
 5. Open your browser and visit `http://localhost:5173` to view the website.
 
-## File Structure
-
-```
-nike-website/
-│
-├── public/
-│   ├── index.html
-│   └── ...
-│
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   └── ...
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── About.js
-│   │   └── ...
-│   ├── styles/
-│   │   ├── index.css
-│   │   └── ...
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-│
-├── README.md
-├── LICENSE
-└── ...
-```
-
 ## Usage
 
 Feel free to explore the codebase and customize it to your liking! Here are a few pointers to get started:
