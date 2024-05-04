@@ -4,7 +4,7 @@ Welcome to the Nike Website project! This project is a showcase of modern web de
 
 ## Preview
 
-![Nike Website Clone](./public/nike-demo.mp4)
+![Nike Website Clone](./public/nike-landing.JPG)
 
 ## Features
 
