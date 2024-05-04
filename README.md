@@ -16,7 +16,7 @@ Welcome to the Nike Website project! This project is a showcase of modern web de
 
 ## Live Demo
 
-[Check out the live demo here!](#https://nike-clone-burninghat.vercel.app/)
+[Check out the live demo here!](https://nike-clone-burninghat.vercel.app/)
 
 ## Installation
 
