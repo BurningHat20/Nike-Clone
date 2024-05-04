@@ -69,7 +69,7 @@ const Footer = () => {
         className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 1.5 }}
+        transition={{ duration: 0.4, delay: 1.2 }}
       >
         <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
           <img
